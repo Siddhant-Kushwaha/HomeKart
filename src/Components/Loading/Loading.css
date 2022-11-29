@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  margin: 0.5rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo .green {
+  height: 8vw;
+  width: 15vw;
+  background-color: #88ed25;
+}
+
+.logo .black {
+  margin-left: 0.2vw;
+  height: 8vw;
+  width: 8vw;
+  background-color: black;
+}
+
+.head1 {
+  display: flex;
+  font-family: "Azeret Mono", monospace;
+  font-size: 4.6rem;
+  letter-spacing: 0.4rem;
+  font-weight: 400;
+}
+.head2 {
+  font-family: "Azeret Mono", monospace;
+  font-size: 1.5rem;
+  letter-spacing: 0.65rem;
+  font-weight: 500;
+}
+
+@keyframes initiate {
+  100% {
+    left: 0px;
+    top: 0px;
+    transform: translate(0, 0) scale(0.3);
+  }
+}
